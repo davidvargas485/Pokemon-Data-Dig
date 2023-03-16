@@ -35,7 +35,7 @@ GROUP BY
     col12_nulls,
     col13_nulls;
 
-# Only col4(Type_2) has nulls (386 of them), which is fine because this means that 386 pokemon have only 1 type. 
+# Only col4 (Type_2) has nulls (386 of them), which is fine because this means that 386 pokemon have only 1 type. 
 
 # Let's find the top 10 pokemon per stat category.
 
