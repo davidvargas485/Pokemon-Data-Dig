@@ -9,19 +9,19 @@ SELECT
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Name IS NULL) AS col2_nulls,
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Type_1 IS NULL) AS col3_nulls,
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Type_2 IS NULL) AS col4_nulls,
-	(SELECT COUNT(*) FROM sql_projects.pokemon WHERE Total IS NULL) AS col5_nulls,
+    (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Total IS NULL) AS col5_nulls,
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE HP IS NULL) AS col6_nulls,
-	(SELECT COUNT(*) FROM sql_projects.pokemon WHERE Attack IS NULL) AS col7_nulls,
+    (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Attack IS NULL) AS col7_nulls,
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Defense IS NULL) AS col8_nulls,
-	(SELECT COUNT(*) FROM sql_projects.pokemon WHERE Sp_Atk IS NULL) AS col9_nulls,
+    (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Sp_Atk IS NULL) AS col9_nulls,
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Sp_Def IS NULL) AS col10_nulls,
-	(SELECT COUNT(*) FROM sql_projects.pokemon WHERE Speed IS NULL) AS col11_nulls,
+    (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Speed IS NULL) AS col11_nulls,
     (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Generation IS NULL) AS col12_nulls,
-	(SELECT COUNT(*) FROM sql_projects.pokemon WHERE Legendary IS NULL) AS col13_nulls
+    (SELECT COUNT(*) FROM sql_projects.pokemon WHERE Legendary IS NULL) AS col13_nulls
 FROM
-	sql_projects.pokemon
+    sql_projects.pokemon
 GROUP BY
-	col1_nulls,
+    col1_nulls,
     col2_nulls,
     col3_nulls,
     col4_nulls,
