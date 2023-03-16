@@ -1,6 +1,6 @@
 # In this SQL, I'm querying a dataset of the first 6 generations of pokemon to discover interesting statistics I had always wondered about as a child.
 
-# 1. The first step is to manually create a data table by modifying the data source's (https://gist.github.com/pamelafox/26b9357c6120d3d0d27c2b90c950e8c6) SQL to match MySQL syntax.
+# 1. The first step is to manually create a data table by modifying the data source's SQL to match MySQL syntax.
 
 # 2. Check to see how many nulls are in each column to see if we need to filter any pokemon out.
 
