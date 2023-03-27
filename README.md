@@ -31,6 +31,8 @@ Here are some interesting findings!
 
 <img width="714" alt="legendary_summary" src="https://user-images.githubusercontent.com/127991602/228066353-d3c6c76f-1af2-41b0-a42c-33dc9abef61a.png">
 
+For more facts, check out my other visuals [here](https://github.com/davidvargas485/Pokemon-Data-Dig/tree/main/Data%20Visuals).
+
 ## Explore the Code
 
 To explore the SQL used in this project click [here](https://github.com/davidvargas485/Pokemon-Data-Dig/blob/main/pokemon_data_analysis.sql).
