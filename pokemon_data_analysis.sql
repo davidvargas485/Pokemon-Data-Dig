@@ -402,13 +402,13 @@ SELECT
     num_legendary,
     (721-num_legendary) AS num_not_legendary,
     ROUND((num_legendary/721)*100) AS legendary_percent
-FROM (
-	SELECT
-		COUNT(DISTINCT Number) AS num_legendary
-	FROM
-		sql_projects.pokemon2
-	WHERE
-		Legendary = "True") AS legendary_count;
+FROM 
+    (SELECT
+	COUNT(DISTINCT Number) AS num_legendary
+    FROM
+	sql_projects.pokemon2
+    WHERE
+	Legendary = "True") AS legendary_count;
 
 #23.A How many legendary pokemon in each type? We need to count pokemon with two types as part of both types.
 
