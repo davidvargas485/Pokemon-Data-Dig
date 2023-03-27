@@ -14,6 +14,7 @@ The data used in this project was obtained from [Pamela Fox](https://gist.github
 ## Tools Used
 * MySQL Workbench (for data cleaning and analysis)
 * Microsoft Excel (for data visualization)
+* Pages (for data visualization and graphic manipulation)
 
 ## Glance of the Results
 
