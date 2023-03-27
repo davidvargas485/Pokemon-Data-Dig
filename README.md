@@ -1,7 +1,7 @@
 # Pokemon-Data-Dig
 
 ## Description
-In this SQL Project, I'm querying a dataset of the first 6 generations of pokemon to discover interesting bits of information. Pokemon was a major part of my childhood and I still am a fan today. *This project focuses on the base form of the first 721 pokemon only* 
+In this SQL Project, I'm querying a dataset of the first 6 generations of pokemon to discover interesting bits of information. Pokemon was a major part of my childhood and I still am a fan today. *This project focuses on the base forms of the first 721 pokemon only.* 
 
 **Please take a look at the data visualizations I created from my various query results by clicking [here](https://github.com/davidvargas485/Pokemon-Data-Dig/tree/main/Data%20Visuals).**
 
