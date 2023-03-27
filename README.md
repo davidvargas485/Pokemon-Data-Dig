@@ -1,10 +1,10 @@
 # Pokemon-Data-Dig
 
-## Authors
-[@davidvargas](https://github.com/davidvargas485)
-
 ## Description
 In this SQL Project, I'm querying a dataset of the first 6 generations of pokemon to discover interesting bits of information. Pokemon was a major part of my childhood and I still am a fan today. 
+
+## Authors
+[@davidvargas](https://github.com/davidvargas485)
 
 **Please take a look at the data visualizations I created from my various query results by clicking [here](https://github.com/davidvargas485/Pokemon-Data-Dig/tree/main/Data%20Visuals).**
 
