@@ -19,6 +19,8 @@ The data used in this project was obtained from [Pamela Fox](https://gist.github
 
 To explore the SQL used in this project click [here](https://github.com/davidvargas485/Pokemon-Data-Dig/blob/main/pokemon_data_analysis.sql).
 
+To explore how I modified and imported the data into MySQL click [here](https://github.com/davidvargas485/Pokemon-Data-Dig/blob/main/pokemon_dataset.sql).
+
 ## Credits
 
 Once again, the dataset used in this project was obtained from [Pamela Fox](https://gist.github.com/pamelafox/26b9357c6120d3d0d27c2b90c950e8c6).
