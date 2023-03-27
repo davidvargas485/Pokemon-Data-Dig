@@ -1,4 +1,7 @@
-CREATE TABLE pokemon( /* Original dataset did not have a primary key so we need to add one */
+# Copy data from data source: https://gist.github.com/pamelafox/26b9357c6120d3d0d27c2b90c950e8c6 
+/* Original dataset did not have a primary key so we need to add one */
+
+CREATE TABLE pokemon(
   ID		 INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY(ID),
   Number     INT,
