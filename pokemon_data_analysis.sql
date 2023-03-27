@@ -29,35 +29,35 @@ LIMIT 1;
 #2. Let's check how many pokemon there are in this dataset.
 
 SELECT
-	MAX(Number) AS last_pokemon_num
+    MAX(Number) AS last_pokemon_num
 FROM
-	sql_projects.pokemon;
+    sql_projects.pokemon;
 
 #3. Let's check how many rows there are in this dataset.
 
 SELECT 
-	COUNT(*) AS num_rows
+    COUNT(*) AS num_rows
 FROM
-	sql_projects.pokemon;
+    sql_projects.pokemon;
 
 /* There are 800 rows, which means this data includes pokemon with multiple forms. WE WANT TO FOCUS ON THE BASE FORMS ONLY. */
 
 #4. Let's determine which pokemon have multiple forms.
 
 SELECT
-	*
+    *
 FROM
-	(SELECT
-		Number,
-		COUNT(Number) AS num_forms
-	FROM
-		sql_projects.pokemon
-	GROUP BY
-		Number
-	ORDER BY
-		num_forms DESC) AS a
+    (SELECT
+	Number,
+	COUNT(Number) AS num_forms
+    FROM
+	sql_projects.pokemon
+    GROUP BY
+	Number
+    ORDER BY
+	num_forms DESC) AS a
 WHERE
-	num_forms > 1;
+    num_forms > 1;
 
 #5. Using the query output above, let's filter out the other forms and create a new table.
 
