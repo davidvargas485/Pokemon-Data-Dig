@@ -12,8 +12,12 @@ In this SQL Project, I'm querying a dataset of the first 6 generations of pokemo
 The data used in this project was obtained from [Pamela Fox](https://gist.github.com/pamelafox/26b9357c6120d3d0d27c2b90c950e8c6).
 
 ## Glance of the Results
-#### Here are some interesting findings!
 
+Here are some interesting findings!
+
+#### Strongest Pokemon
+
+<img width="799" alt="strongest_per_stat" src="https://user-images.githubusercontent.com/127991602/228059431-ce985394-8966-4d2a-8271-cf671f5c2ddf.png">
 
 ## Explore the Code
 
