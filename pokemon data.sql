@@ -1,5 +1,6 @@
 # Copy data from data source: https://gist.github.com/pamelafox/26b9357c6120d3d0d27c2b90c950e8c6 
-/* Original dataset did not have a primary key so we need to add one */
+/* Original dataset did not have a primary key so we need to add one. */
+/* Change original SQL to match MySQL syntax. */
 
 CREATE TABLE pokemon(
   ID		 INT NOT NULL AUTO_INCREMENT,
