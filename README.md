@@ -11,6 +11,9 @@ In this SQL Project, I'm querying a dataset of the first 6 generations of pokemo
 ## Data Source
 The data used in this project was obtained from [Pamela Fox](https://gist.github.com/pamelafox/26b9357c6120d3d0d27c2b90c950e8c6).
 
+## Tools Used
+MySQL Workbench
+
 ## Glance of the Results
 
 Here are some interesting findings!
