@@ -19,6 +19,10 @@ Here are some interesting findings!
 
 <img width="799" alt="strongest_per_stat" src="https://user-images.githubusercontent.com/127991602/228059431-ce985394-8966-4d2a-8271-cf671f5c2ddf.png">
 
+#### Pokemon Generations
+
+<img width="715" alt="fun_fact_pokemon_gen" src="https://user-images.githubusercontent.com/127991602/228062525-0e43cfff-3b09-471d-a6e8-b71bcee05fc6.png">
+
 ## Explore the Code
 
 To explore the SQL used in this project click [here](https://github.com/davidvargas485/Pokemon-Data-Dig/blob/main/pokemon_data_analysis.sql).
