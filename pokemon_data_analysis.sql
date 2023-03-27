@@ -399,7 +399,7 @@ ORDER BY
 #22. What percent of all pokemon2 are legendary?
 
 SELECT
-	num_legendary,
+    num_legendary,
     (721-num_legendary) AS num_not_legendary,
     ROUND((num_legendary/721)*100) AS legendary_percent
 FROM (
