@@ -23,6 +23,14 @@ Here are some interesting findings!
 
 <img width="715" alt="fun_fact_pokemon_gen" src="https://user-images.githubusercontent.com/127991602/228062525-0e43cfff-3b09-471d-a6e8-b71bcee05fc6.png">
 
+#### Pokemon Types
+
+<img width="799" alt="types_summary" src="https://user-images.githubusercontent.com/127991602/228064840-d2e2736d-3776-4146-b6c0-561e324fd73b.png">
+
+#### Legendary Pokemon
+
+<img width="714" alt="legendary_summary" src="https://user-images.githubusercontent.com/127991602/228066353-d3c6c76f-1af2-41b0-a42c-33dc9abef61a.png">
+
 ## Explore the Code
 
 To explore the SQL used in this project click [here](https://github.com/davidvargas485/Pokemon-Data-Dig/blob/main/pokemon_data_analysis.sql).
