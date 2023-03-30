@@ -338,7 +338,7 @@ FROM
       FROM
 	 sql_projects.pokemon2
       GROUP BY
-	 Type_2)) AS cbind_type1_type2
+	 Type_2)) AS rbind_type1_type2
 GROUP BY
     type
 ORDER BY 
@@ -363,7 +363,7 @@ FROM
       FROM
 	 sql_projects.pokemon2
       GROUP BY
-	 Type_2)) AS cbind_type1_type2;
+	 Type_2)) AS rbind_type1_type2;
 
 ##21.C Find what percent of the total population each type makes up.
 
@@ -390,7 +390,7 @@ FROM
 	FROM
 	    sql_projects.pokemon2
 	GROUP BY
-	    Type_2)) AS cbind_type1_type2
+	    Type_2)) AS rbind_type1_type2
     GROUP BY
 	type) AS num_types
 ORDER BY
@@ -434,7 +434,7 @@ FROM
     WHERE
 	 Legendary = "True"
     GROUP BY
-	 type)) AS cbind_type1_type2_legendaries
+	 type)) AS rbind_type1_type2_legendaries
 GROUP BY
 	type
 ORDER BY
@@ -463,7 +463,7 @@ FROM
     WHERE
 	 Legendary = "True"
     GROUP BY
-	 type)) AS cbind_type1_type2_legendaries;
+	 type)) AS rbind_type1_type2_legendaries;
 
 #23.C Find what percent of the total legendary population each type makes up.
 
